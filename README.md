@@ -20,6 +20,7 @@ _A Power BI dashboard that tracks Super Store sales, profit, categories, regions
 This project is a Power BI dashboard created to analyze Super Store sales performance.  
 It includes sales trends, category-wise insights, state performance, customer segments, and a 15-day sales forecast.  
 The main goal of this dashboard is to help understand business performance and identify improvement areas.
+
 ---
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
 
