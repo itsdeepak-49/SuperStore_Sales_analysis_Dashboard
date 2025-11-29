@@ -1,7 +1,7 @@
 
 # 🧾  Credit Card Transaction & Customer Insights Dashboard — Power BI
 
-_I created two Power BI dashboards to analyze credit card transactions and customer behavior. These reports highlight key trends in revenue, spending patterns, and customer segments to support data-driven decision-making._
+_A Power BI dashboard that tracks Super Store sales, profit, categories, regions, and provides a 15-day forecast to help understand business performance._
 
 ---
 
@@ -17,73 +17,71 @@ _I created two Power BI dashboards to analyze credit card transactions and custo
 ---
 <h2><a class="anchor" id="overview"></a>Overview</h2>
 
-This project analyzes credit card transactions and customer behavior using Power BI.
-I created two dashboards — Credit Card Transaction Report and Credit Card Customer Report — to help understand revenue, spending patterns, customer segments, and business performance.
-
+This project is a Power BI dashboard created to analyze Super Store sales performance.  
+It includes sales trends, category-wise insights, state performance, customer segments, and a 15-day sales forecast.  
+The main goal of this dashboard is to help understand business performance and identify improvement areas.
 ---
 <h2><a class="anchor" id="business-problem"></a>Business Problem</h2>
 
-Businesses often struggle to understand how customers use their credit cards and where revenue is coming from.
-The goal was to identify:
-- Which customer groups generate more revenue
-- Which card categories perform best
-- Trends in spending and transactions
-- Areas to improve customer satisfaction
+The business needed a clear view of overall sales performance, profit trends, top states,  
+and customer behaviour.  
+They also wanted a short-term sales forecast to plan inventory and targets.  
+This dashboard helps answer key questions like:
+- Which categories and states generate the highest sales?
+- How do sales change month by month?
+- Which shipping modes and payment methods customers prefer?
+- What will the sales look like in the next 15 days?
 
 ---
 <h2><a class="anchor" id="dataset"></a>Dataset</h2>
 
-The dataset contains credit card transactions and customer details.
-Key columns include:
-- Card Category
-- Education
-- Marital Status
-- Age Group
-This was a clean dataset with no missing values (or mention if you cleaned).
+The dataset contains Super Store sales records including:
+- Order Date, Ship Date
+- Product Category & Sub-Category
+- State & Region
+- Sales, Profit, Quantity
+- Customer Segment
+- Payment Mode
+The data was cleaned and transformed in Power Query before building visuals.
 
 ---
 
 <h2><a class="anchor" id="tools--technologies"></a>Tools & Technologies</h2>
 
-- Power BI – Dashboard and Data Visualization
-- Excel – Initial data cleaning and analysis
-- DAX – Measures and calculations
-- Power Query – Data transformations
-
----
-<h2><a class="anchor" id="project-structure"></a>Project Structure</h2>
-
-```
+- Power BI – Data modelling, visuals, forecasting  
+- Power Query – Data cleaning & transformation  
+- DAX – Basic measures and calculations  
+- Excel – Additional checking and preprocessing  
 
 ---
 <h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
 
-🔷 Credit Card Transaction Dashboard
-Shows:
-- Total revenue, interest, and transaction amount
-- Performance by card category
-- Quarterly trends
-- Revenue by chip type, expenditure type, and customer job
+### Super Store Sales Dashboard:
+- KPIs: Sales, Profit, Quantity, Delivery Time  
+- Profit & Sales by Month  
+- Sales by Category & Sub-Category  
+- Sales by Payment Mode & Ship Mode  
+- Sales by Region and State (Map visual)  
+- Interactive slicers for region
 
-🔷 Credit Card Customer Dashboard
-Shows:
-- Customer revenue by gender, age group, education, income level
-- Satisfaction score
-- Revenue trend over time
-- Top 5 states by revenue
+### 15-Day Forecast Dashboard:
+- 15-day sales forecast line chart with confidence interval  
+- Trend view of last 2 years  
+- Top 5 states by sales  
 
-![Credit Card Analysis Dashboard](Images/Credit Card Customer Report.png)
+![SuperStore Analysis](Image/Dashboard.png)
+[SuperStore Analysis](Image/Forecaste.png)
 
 ---
 
 ---
 <h2><a class="anchor" id="final-recommendations"></a>Final Recommendations</h2>
 
-- Platinum and Gold customers generate the highest revenue.
-- Swipe transactions bring the majority of revenue compared to online.
-- Married and high-income customers spend more.
-- 30–40 age group is the strongest segment.
-Business can target high-value groups for offers and improve online transaction usability.
+- West and East regions generate the highest sales.  
+- California and New York are the top states.  
+- Standard Class shipping dominates order volume.  
+- Office Supplies and Technology categories perform the best.  
+- 15-day forecast shows moderate fluctuations but overall stable trend.
 
 ---
 <h2><a class="anchor" id="author--contact"></a>Author & Contact</h2>
