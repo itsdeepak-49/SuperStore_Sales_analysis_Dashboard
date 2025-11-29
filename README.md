@@ -1,5 +1,5 @@
 
-# 🧾  Credit Card Transaction & Customer Insights Dashboard — Power BI
+# 🧾  SuperStore Sales Insights Dashboard — Power BI
 
 _A Power BI dashboard that tracks Super Store sales, profit, categories, regions, and provides a 15-day forecast to help understand business performance._
 
@@ -70,7 +70,7 @@ The data was cleaned and transformed in Power Query before building visuals.
 - Top 5 states by sales  
 
 ![SuperStore Analysis](Image/Dashboard.png)
-[SuperStore Analysis](Image/Forecaste.png)
+![SuperStore Analysis](Image/Forecast.png)
 
 ---
 
